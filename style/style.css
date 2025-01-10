@@ -39,19 +39,40 @@
   .btn-shared:hover{
     background-color: red;
   }
+  .btn-Vision{
+    color: white;
+    border-radius: 8px;
+    padding: 17px 34px;
+    font-weight: 600;
+    font-style: 18px;
+    border: none;
+  }
+  .btn-Vision:hover{
+    background-color: red;
+  }
+
   .sections-title{
     font-weight: bold;
     font-size: 40px;
     color: #0E0E0E;
   }
-  .pillar-title{
+  .section-title{
     font-weight: bold ;
     font-style: 20px;
     color: #0E0E0E;
   }
- .pillar-description{
+ .section-description {
     font-style: 16px;
     color: #0E0E0E;
+}
+.vision-bg-color-1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vision-bg-color-2{
+    background-color: #C6E4D6;
+}
+.vision-bg-color-3{
+    background-color: #F7EBCF;
 }
   /* Header styles */
   nav{
@@ -111,4 +132,24 @@
     box-shadow: ;
     border-radius: 16px;
     background-color: #FFFFFF;
+  }
+
+  /* vision styles */
+  .vision-container{
+    display: flex;
+    gap: 24px;
+  }
+  .vision{
+    padding: 32px;
+    border-radius: 16px;
+    /* background-color: #5490F5; */
+  }
+  .digital-colol{
+    background-color: #5490F5;
+  }
+  .green-color{
+    background-color: #09A15C;
+  }
+  .Modern-color{
+    background-color: #FFC239;
   }
