@@ -16,6 +16,9 @@
   .section-margin{
     margin: 80px 0;
   }
+  .text-center{
+    text-align: center;
+  }
   .bg-color{
     background-color: #F1F1F3;
   }
@@ -225,7 +228,7 @@
   .donate-form input[type="text"]{
     padding: 20px 40px;
     width: 950px;
-    background: #fff;
+    background: #FFFFFF;
     margin: 32px 0;
     border: none;
     text-align: center;
@@ -239,4 +242,41 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  /* Newsletter styles */
+  .Newsletter{
+    background-color: #C6E4D6;
+    padding: 80px 265px;
+    border-radius: 24px;
+  }
+  .width-center{
+    width: 622px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .Newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Newsletter-form input[type="text"]{
+    padding: 16px 40px;
+    width: 500px;
+    background: #FFFFFF;
+    margin: 32px 0;
+    border: none;
+    text-align: center;
+    outline: none;
+  }
+  .subscribe-btn{
+    background-color: #006A50;
+    color: white;
+    border-radius: 0 8px 8px 0;
+    padding: 17px 34px;
+    font-weight: 600;
+    font-style: 18px;
+    border: none;
+  }
+  .subscribe-btn:hover{
+    background-color: red;
   }
