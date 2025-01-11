@@ -9,10 +9,12 @@
     max-width: 1280px;
     margin: 0 auto;
   }
-  main section{
-    /* margin: 80px 0; */
-  }
   /* shared styles */
+  .title-1{
+      font-weight: bold;
+      font-style: 32px;
+      color: #0E0E0E;
+  }
   .section-margin{
     margin: 80px 0;
   }
@@ -22,16 +24,7 @@
   .bg-color{
     background-color: #F1F1F3;
   }
-  .color-primary{
-    color: #C6E4D6;
-  }
 
-  .Satellite-title{
-    font-weight: bold;
-    font-size: 32px;
-    color: #0E0E0E;
-    margin-bottom: 12px;
-  }
   .btn-shared{
     background-color: #006A50;
     color: white;
@@ -109,6 +102,7 @@
     justify-content: space-between;
     background-color: #C6E4D6;
     border-radius: 24px;
+    margin-top: 20px;
   }
   .banner-content{
     max-width: 622px;
@@ -121,6 +115,7 @@
   .banner-greetings{
     font-weight: 400;
     font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
   }
   .banner-title{
     font-weight: bold;
@@ -138,6 +133,9 @@
     padding: 24px;
     border-radius: 16px;
     background-color: #FFFFFF;
+  }
+  .pillar:hover{
+    background-color: #C6E4D6;
   }
 
   /* vision styles */
@@ -176,6 +174,12 @@
     font-weight: 600;
   }
   /* Satellite styles */
+  .Satellite-title{
+    font-weight: bold;
+    font-size: 32px;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+  }
   .Satellite-section{
     display: flex;
     gap: 32px;
@@ -204,8 +208,6 @@
     display: flex;
     justify-content: center;
     gap: 24px;
-    /* margin: 15px 0; */
-    /* align-items: center; */
   }
   .dollar {
     background-color: white;
@@ -216,6 +218,9 @@
     background-color: #C6E4D6;
     padding: 40px;
     border-radius: 16px;
+  }
+  .active-color{
+    background-color: #C6E4D6;
   }
   .dollar:hover{
     background-color: #C6E4D6;
@@ -279,4 +284,16 @@
   }
   .subscribe-btn:hover{
     background-color: red;
+  }
+
+  /* footer styles */
+  footer{
+    background-color: white;
+    text-align: center;
+    padding: 50px 0;
+  }
+  hr{
+    width: 1122px;
+    color: rgba(14, 14, 14, 0.1);
+    margin-bottom: 32px;
   }
