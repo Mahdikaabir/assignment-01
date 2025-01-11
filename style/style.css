@@ -201,6 +201,7 @@
     display: flex;
     justify-content: center;
     gap: 24px;
+    /* margin: 15px 0; */
     /* align-items: center; */
   }
   .dollar {
@@ -216,7 +217,26 @@
   .dollar:hover{
     background-color: #C6E4D6;
   }
-  input{
+  .donate-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .donate-form input[type="text"]{
+    padding: 20px 40px;
+    width: 950px;
+    background: #fff;
+    margin: 32px 0;
     border: none;
-    padding: 15px;
+    text-align: center;
+    outline: none;
+  }
+  input::placeholder{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+  }
+  .btn-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
