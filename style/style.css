@@ -20,8 +20,9 @@
     background-color: #F1F1F3;
   }
   .color-primary{
-    color: #0E0E0E;
+    color: #C6E4D6;
   }
+
   .Satellite-title{
     font-weight: bold;
     font-size: 32px;
@@ -132,7 +133,6 @@
   }
   .pillar{
     padding: 24px;
-    box-shadow: ;
     border-radius: 16px;
     background-color: #FFFFFF;
   }
@@ -186,4 +186,37 @@
   }
   .al-jazeera-image{
     margin: 12px 0px;
+  }
+
+  /* donate styles */
+  .text-center{
+    text-align: center;
+  }
+  .donate-description{
+    width: 1104px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .dollars{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    /* align-items: center; */
+  }
+  .dollar {
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+  }
+  .taka {
+    background-color: #C6E4D6;
+    padding: 40px;
+    border-radius: 16px;
+  }
+  .dollar:hover{
+    background-color: #C6E4D6;
+  }
+  input{
+    border: none;
+    padding: 15px;
   }
